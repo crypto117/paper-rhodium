@@ -205,7 +205,7 @@ function genwallet_prefix()
     prefix_widget = document.getElementById("prefix_widget");
     prefix = prefix_widget.value;
     prefix.trim();
-    if (prefix.length < 5 || prefix[0] != "TRTL") {
+    if (prefix.length < 4 || prefix[0] != "Rhod") {
       alert("Bad prefix "+prefix+" should start with K and be at least one extra character");
       return;
     }
