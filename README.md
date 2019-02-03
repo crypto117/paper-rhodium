@@ -2,7 +2,6 @@
 
 **RhodiumCoin Paper Wallet Generator**
 
-https://turtlecoin.lol/wallet
 
 ## LICENSE
 
