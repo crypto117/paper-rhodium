@@ -163,7 +163,7 @@ var highest_address=cnUtil.pubkeys_to_string(ffhex,ffhex);
 
 function is_valid_prefix(prefix)
 {
-  if (prefix.length <= 0 || prefix.length >= 95)
+  if (prefix.length <= 0 || prefix.length >= 94)
     return false;
   var lowest=lowest_address.substr(0,prefix.length);
   var highest=highest_address.substr(0,prefix.length);
